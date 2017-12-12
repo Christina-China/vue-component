@@ -1,0 +1,19 @@
+.tab-pane {
+    background: green;
+    float: left;
+    /*padding-right: rem(20px);*/
+    overflow: hidden;
+
+    & .tab-pane-title {
+      float: left;
+      background: red;
+      padding: rem(20px);
+      cursor: pointer;
+      border-bottom: 1px solid #ddd;
+    }
+
+    & .tab-pane-content {
+      background: yellow;
+      padding: rem(20px);
+    }
+}
